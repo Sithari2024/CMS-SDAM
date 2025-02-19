@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CMS_SDAM
+{
+    internal interface IBookable
+    {
+        void Book();
+        void CancelBooking();
+        bool IsAvailable();
+    }
+}
